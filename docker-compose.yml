@@ -77,7 +77,6 @@ services:
     entrypoint: [ "redis-server", "/etc/redis.conf" ]
     environment:
       TZ: "$TZ"
-    command: redis-server --requirepass xinxiaosi123..
     networks:
       - default
 
